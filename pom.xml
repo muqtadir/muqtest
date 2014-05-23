@@ -41,7 +41,7 @@
     <repository>
       <id>myRepoId</id>
       <name>myCompanyReporsitory</name>
-      <url>/Users/muqtadir/git/repository</url>
+      <url>/Users/muqtadir/git/muqtest/target/site</url>
     </repository>
   </distributionManagement>
   <build>
