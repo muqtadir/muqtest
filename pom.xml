@@ -17,7 +17,6 @@
   specific language governing permissions and limitations
   under the License.
 -->
-<!-- $Id: pom.xml 642118 2008-03-28 08:04:16Z reinhard $ -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
@@ -26,16 +25,16 @@
   <name>tesing</name>
   <groupId>com.test</groupId>
   <artifactId>tesing</artifactId>
-  <version>0.0.16-SNAPSHOT</version>
+  <version>0.0.1-SNAPSHOT</version>
   <properties>
   <asi.tomcat.server.url />
   <asi.tomcat.server.name />
   <env>Test</env>
   </properties>
     <scm>
-        <connection>scm:git:git@github.com:muqtadir/mvn-repo.git</connection>
-        <developerConnection>scm:git:git@github.com:muqtadir/mvn-repo.git</developerConnection>
-        <url>https://github.com/rent4living/mvn-repo</url>
+        <connection>scm:git:git@github.com:muqtadir/muqtest.git</connection>
+        <developerConnection>scm:git:git@github.com:muqtadir/muqtest.git</developerConnection>
+        <url>https://github.com/muqtest/mvn-repo</url>
     <tag>HEAD</tag>
   </scm>
   <distributionManagement>
@@ -155,13 +154,13 @@
         	</plugin>			
     </plugins>
   </build>
-
-  <dependencies>
-    <!--dependency>
-      <groupId>com.test</groupId>
-      <artifactId>[the artifact id of the block to be mounted]</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
-    </dependency-->
-  </dependencies>
+<dependencies>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.0.1</version>
+			<scope>provided</scope>
+		</dependency>
+</dependencies>
 
 </project>
