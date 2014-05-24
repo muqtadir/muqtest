@@ -25,7 +25,7 @@
   <name>tesing</name>
   <groupId>com.test</groupId>
   <artifactId>tesing</artifactId>
-  <version>0.0.11</version>
+  <version>0.0.12-SNAPSHOT</version>
   <properties>
   <asi.tomcat.server.url />
   <asi.tomcat.server.name />
@@ -35,7 +35,7 @@
         <connection>scm:git:git@github.com:muqtadir/muqtest.git</connection>
         <developerConnection>scm:git:git@github.com:muqtadir/muqtest.git</developerConnection>
         <url>https://github.com/muqtest/mvn-repo</url>
-    <tag>tesing-0.0.11</tag>
+    <tag>HEAD</tag>
   </scm>
   <distributionManagement>
     <repository>
