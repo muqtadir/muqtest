@@ -38,11 +38,11 @@
     <tag>HEAD</tag>
   </scm>
   <distributionManagement>
-    <repository>
+    <site>
       <id>myRepoId</id>
       <name>myCompanyReporsitory</name>
       <url>/Users/muqtadir/git/muqtest/target/site</url>
-    </repository>
+    </site>
   </distributionManagement>
   <build>
     <plugins>
