@@ -34,7 +34,7 @@
     <scm>
         <connection>scm:git:git@github.com:muqtadir/muqtest.git</connection>
         <developerConnection>scm:git:git@github.com:muqtadir/muqtest.git</developerConnection>
-        <url>https://github.com/muqtest/mvn-repo</url>
+        <url>https://github.com/muqtadir/muqtest</url>
     <tag>HEAD</tag>
   </scm>
   <distributionManagement>
